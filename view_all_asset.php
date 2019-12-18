@@ -114,7 +114,13 @@
                                                                   </button>
                                                                   <div class="dropdown-menu">
                                                                     <a class="dropdown-item" href="track_asset.php?assetId='.$value['assetId'].'&tx_hash='.$value['transactionHash'].'">Track</a>
-                                                                    <a class="dropdown-item" href="get_asset_details.php?assetId='.$value['assetId'].'&tx_hash='.$value['transactionHash'].'">Details</a>
+                                                                    <a class="dropdown-item" href="get_asset_details.php?assetId='.$value['assetId'].'&tx_hash='.$value['transactionHash'].'">Details</a>';
+
+                                                                    if($_SESSION['user']=="admin@sustainability.io"){
+                                                                        echo '<a class="dropdown-item" data-toggle="modal" data-status="'.$value['status'].'" data-assetId="'.$value['assetId'].'" data-target="#myModal">Update</a>';
+                                                                    }
+                                                                    
+                                                                    echo '
                                                                   </div>
                                                                 </div></td>
                                                             </tr>';
@@ -133,7 +139,8 @@
 
                     
                 <div class="page-footer">
-                    <p>2019 &copy; <?php echo $pdo_auth['name']; ?></p>
+                    <p>2019 &copy; Sustainability.io</p>
+                    <!-- <p>2019 &copy; <?php echo $pdo_auth['name']; ?></p> -->
                 </div>
                 </div><!-- /Page Inner -->
                <?php include 'right_sidebar.php'; ?>

@@ -75,7 +75,7 @@
                             <p class="m-t-sm">Already have an account? <a href="index.php"  style="color:#2d95ec ">Login</a></p>
                         </div>
                         <div class="login-footer">
-                            <p>Copyright <?php echo date("Y"); ?>, Sustainibility.io</p>
+                            <p>Copyright <?php echo date("Y"); ?>, Sustainability.io</p>
                         </div>
                     </div>
                 </div>

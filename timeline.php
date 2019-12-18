@@ -320,7 +320,8 @@
 
                     
                 <div class="page-footer">
-                    <p>2019 &copy; <?php echo $pdo_auth['name']; ?></p>
+                    <p>2019 &copy; Sustainability.io</p>
+                    <!-- <p>2019 &copy; <?php echo $pdo_auth['name']; ?></p> -->
                 </div>
                 </div><!-- /Page Inner -->
                <?php include 'right_sidebar.php'; ?>

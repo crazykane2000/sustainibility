@@ -1,6 +1,6 @@
  <div class="secondary-sidebar">
                     <div class="secondary-sidebar-bar">
-                        <a href="#" class="logo-box">Sustainibility.io</a>
+                        <a href="#" class="logo-box"><img src="http://catpops.co/sio.png" style="Width:100%"/></a>
                     </div>
                     <div class="secondary-sidebar-menu">
                         <ul class="accordion-menu">
@@ -9,31 +9,39 @@
                                     <i class="menu-icon icon-home4"></i><span>Dashboard</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="add_asset.php">
-                                    <i class="menu-icon icon-apps"></i><span>Add Asset</span><i class="accordion-icon fas fa-angle-left"></i>
-                                </a>                                
-                            </li>
-                            <li>
-                                <a href="view_assets.php">
-                                    <i class="menu-icon icon-eye"></i><span>View Asset</span><i class="accordion-icon fas fa-angle-left"></i>
-                                </a>                                
-                            </li>
-                            <li>
-                                <a href="view_all_asset.php">
-                                    <i class="menu-icon icon-flash_on"></i><span>View All Asset</span><i class="accordion-icon fas fa-angle-left"></i>
-                                </a>                                
-                            </li>
-                            <li>
-                                <a href="dashboard.php">
-                                    <i class="menu-icon icon-layers"></i><span>Track Asset</span><i class="accordion-icon fas fa-angle-left"></i>
-                                </a>                                
-                            </li>
-                            <li>
-                                <a href="view_all_user.php">
-                                    <i class="menu-icon icon-public"></i><span>View All Users</span><i class="accordion-icon fas fa-angle-left"></i>
-                                </a>                                
-                            </li>
+                            
+                            <?php
+                                if($_SESSION['user']=="admin@sustainability.io"){
+                                    echo '<li>
+                                            <a href="view_all_asset.php">
+                                                <i class="menu-icon icon-flash_on"></i><span>View All Asset</span><i class="accordion-icon fas fa-angle-left"></i>
+                                            </a>                                
+                                        </li>
+                                       
+                                        <li>
+                                            <a href="view_all_user.php">
+                                                <i class="menu-icon icon-public"></i><span>View All Users</span><i class="accordion-icon fas fa-angle-left"></i>
+                                            </a>                                
+                                        </li>';
+                                }
+                                else{
+                                    echo '<li>
+                                            <a href="add_asset.php">
+                                                <i class="menu-icon icon-apps"></i><span>Add Asset</span><i class="accordion-icon fas fa-angle-left"></i>
+                                            </a>                                
+                                        </li>
+                                        <li>
+                                            <a href="view_assets.php">
+                                                <i class="menu-icon icon-eye"></i><span>View Asset</span><i class="accordion-icon fas fa-angle-left"></i>
+                                            </a>                                
+                                        </li>
+                                         <li>
+                                            <a href="dashboard.php">
+                                                <i class="menu-icon icon-layers"></i><span>Track Asset</span><i class="accordion-icon fas fa-angle-left"></i>
+                                            </a>                                
+                                        </li>';
+                                }
+                            ?>
                              <!--<li>
                                 <a href="javascript:void(0)">
                                     <i class="menu-icon icon-layers"></i><span>Layouts</span><i class="accordion-icon fas fa-angle-left"></i>

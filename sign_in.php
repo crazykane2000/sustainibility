@@ -43,7 +43,8 @@
                 <div class="login-content">
                     <div class="login-box">
                         <div class="login-header">
-                            <h3 style="color:#2d95ec ">Log In</h3>
+                            <a href="#" class=""><img src="http://catpops.co/sio.png" style="Width:190px;float:right"/></a>
+                            <div style="clear:both"></div>
                             <p>Welcome back! Please login to continue.</p>
                             <?php see_status($_REQUEST); ?>
                             <div style="padding: 10px;"></div>
@@ -60,12 +61,12 @@
                                     <input type="checkbox" class="custom-control-input" id="exampleCheck1">
                                     <label class="custom-control-label" for="exampleCheck1">Remember password</label>
                                 </div>
-                                <button type="submit" name="login" class="btn btn-primary" style="background-color: #2d95ec !important;border-color:#2d95ec !important">Login</button>
+                                <button type="submit" name="login" class="btn btn-primary" style="background-color: #d05a1c !important;border-color:#d05a1c !important">Login</button>
                             </form>
-                           <br><a href="register.php" style="color: #2d95ec;font-weight: bold;">Create an account</a></p>
+                           <br><a href="register.php" style="color: #d05a1c;font-weight: bold;">Create an account</a></p>
                         </div>
                         <div class="login-footer">
-                            <p>Copyright <?php echo date("Y"); ?>, Sustainibility.io</p>
+                            <p>Copyright <?php echo date("Y"); ?>, Sustainability.io</p>
                         </div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
             <div class="page-sidebar" style="background:-webkit-linear-gradient(top,#2196F3 0,#ff5722 100%);">
                 <div class="profile-menu">
                     <a href="dashboard.php">
-                        <img src="assets/images/avatars/avatar1.png" alt="">
+                        <img src="http://catpops.co/sio.JPG" alt="">
                     </a>
                 </div>
                 <div class="page-sidebar-inner">

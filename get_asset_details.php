@@ -46,7 +46,7 @@
                     <div id="main-wrapper">
                         <div class="content-header">
                            
-                            <h1 class="page-title">Get Details Asset</h1>
+                            <h1 class="page-title">Get Asset Details</h1>
                         </div>
                         
                         <div class="row">
@@ -147,7 +147,8 @@
 
                     
                 <div class="page-footer">
-                    <p>2019 &copy; <?php echo $pdo_auth['name']; ?></p>
+                    <p>2019 &copy; Sustainability.io</p>
+                    <!-- <p>2019 &copy; <?php echo $pdo_auth['name']; ?></p> -->
                 </div>
                 </div><!-- /Page Inner -->
                <?php include 'right_sidebar.php'; ?>

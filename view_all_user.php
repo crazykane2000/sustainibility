@@ -48,10 +48,10 @@
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb breadcrumb-style-1">
                                     <li class="breadcrumb-item">Home</li>
-                                    <li class="breadcrumb-item active" aria-current="page">View All User</li>
+                                    <li class="breadcrumb-item active" aria-current="page">View All Users</li>
                                 </ol>
                             </nav>
-                            <h1 class="page-title">View All User</h1>
+                            <h1 class="page-title">View All Users</h1>
                         </div>
                        <!--  <div class="row">
                             <div class="col-12">
@@ -128,7 +128,8 @@
 
                     
                 <div class="page-footer">
-                    <p>2019 &copy; <?php echo $pdo_auth['name']; ?></p>
+                    <p>2019 &copy; Sustainability.io</p>
+                    <!-- <p>2019 &copy; <?php echo $pdo_auth['name']; ?></p> -->
                 </div>
                 </div><!-- /Page Inner -->
                <?php include 'right_sidebar.php'; ?>

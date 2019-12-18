@@ -53,7 +53,7 @@
                             <div class="col-lg-6">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h5 class="card-title">Enter The Aset to be Tracked</h5>
+                                        <h5 class="card-title">Enter The Asset Details</h5>
                                         <hr/>
                                         <form action="add_asset_handle.php" method="POST">
                                             <div class="form-group">
@@ -133,7 +133,8 @@
 
                     
                 <div class="page-footer">
-                    <p>2019 &copy; <?php echo $pdo_auth['name']; ?></p>
+                    <p>2019 &copy; Sustainability.io</p>
+                    <!-- <p>2019 &copy; <?php echo $pdo_auth['name']; ?></p> -->
                 </div>
                 </div><!-- /Page Inner -->
                <?php include 'right_sidebar.php'; ?>

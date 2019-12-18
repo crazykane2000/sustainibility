@@ -4,7 +4,7 @@
                             <div class="navbar-header">
                                 <div class="logo-sm">
                                     <a href="javascript:void(0)" id="sidebar-toggle-button"><i class="fas fa-bars"></i></a>
-                                    <a class="logo-box" href="index.html"><span>Sustainibility.io</span></a>
+                                    <a class="logo-box" href="index.html"><span>Sustainability.io</span></a>
                                 </div>
                                 <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                     <i class="fas fa-angle-down"></i>
@@ -54,7 +54,7 @@
                                         </ul>
                                     </li>
                                     <li class="dropdown nav-item d-md-block">
-                                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="assets/images/avatars/avatar1.png" alt="" class="rounded-circle"></a>
+                                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="http://catpops.co/sio.JPG" alt="" class="rounded-circle"></a>
                                         <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                             <!-- <li><a href="#">Profile</a></li>
                                             <li><a href="#">Calendar</a></li>

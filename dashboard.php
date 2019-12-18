@@ -3,6 +3,7 @@
     include 'administrator/function.php';
     $pdo_auth = authenticate();
     $pdo = new PDO($dsn, $user, $pass, $opt);  
+    //print_r($_SESSION);
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -107,7 +108,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-3">
-                                                    <button class="btn btn-lg btn-success" style="padding:13px;width:100%">Track Susutainibility </button>
+                                                    <button class="btn btn-lg btn-warning" style="padding:13px;width:100%">Track Sustainability </button>
                                                 </div>
                                             </div>
                                         </form>
@@ -121,7 +122,8 @@
 
                     
                 <div class="page-footer">
-                    <p>2019 &copy; <?php echo $pdo_auth['name']; ?></p>
+                    <p>2019 &copy; Sustainability.io</p>
+                    <!-- <p>2019 &copy; <?php echo $pdo_auth['name']; ?></p> -->
                 </div>
                 </div><!-- /Page Inner -->
                <?php include 'right_sidebar.php'; ?>

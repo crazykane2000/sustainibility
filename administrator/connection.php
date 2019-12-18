@@ -1,8 +1,8 @@
 <?php   
    $host = '127.0.0.1';
-        $db   = 'sustainibility';
-        $user = 'root';
-        $pass = '';
+        $db   = 'sustain';
+        $user = 'sustainibility';
+        $pass = 'pass';
         $charset = 'utf8';
 
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
